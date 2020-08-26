@@ -13,8 +13,8 @@ $row=mysqli_fetch_array($qry);
     $mail->isSMTP();                                            // Send using SMTP
     $mail->Host       = 'smtp1.gmail.com';                    // Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-    $mail->Username   = 'defenseless.vulnweb@gmail.com';                     // SMTP username
-    $mail->Password   = 'Jalandhar@21';                               // SMTP password
+    $mail->Username   = '';                     // SMTP username
+    $mail->Password   = '';                               // SMTP password
     $mail->SMTPSecure = true;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
     $mail->Port       = 587; 
     $mail->Mailer = "smtp";
