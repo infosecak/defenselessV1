@@ -42,7 +42,7 @@ require_once 'inc/config.php';
                                 </div>
                                 <?php
                             } else {
-                                $result = $conn->exec("INSERT INTO users VALUES(NULL, '{$email}', '{$password}', '{$name}', '{$mobile}')");
+                                $result = $conn->exec("INSERT INTO users(email, password, name, mobile) VALUES('{$email}', '{$password}', '{$name}', '{$mobile}')");
                                 if ($result == 1) {
                                     ?>
                                     <div class="alert alert-success" role="alert">
