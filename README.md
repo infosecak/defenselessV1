@@ -11,3 +11,5 @@ Setting up this app is easy. Download it and then create a new database in phpmy
 
 # Author
 Abhinav Khanna : https://www.linkedin.com/in/abhinav-khanna-a2633b114/
+
+Thanks to Rupinder Singh (https://github.com/rupinder-developer). This project would have been possible with Rupinder's support. 
