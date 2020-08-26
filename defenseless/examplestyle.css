@@ -1,0 +1,201 @@
+body {
+  background: #000510;
+  font-family: 'Titillium Web', sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  margin: 0 auto 40px;
+  display: table;
+}
+
+#svg {
+  width: 825px;
+  margin: auto;
+  display: table;
+  position: absolute;
+  z-index: 1;
+}
+
+.inlinesvg .fallback {
+  display: none;
+  visibility: hidden;
+}
+
+.no-inlinesvg .fallback {
+  width: 500px;
+  height: 500px;
+  display: block;
+}
+.no-inlinesvg .fallback img {
+  width: 100%;
+}
+
+h2 {
+  position: relative;
+  z-index: 100;
+  color: #00b0ff;
+  font-size: 25px;
+  line-height: 1.2em;
+  margin: 0;
+}
+
+.dialog {
+  color: #00b0ff;
+  letter-spacing: 0.03em;
+  position: absolute;
+  z-index: 200;
+  text-align: right;
+  opacity: 0.7;
+  margin-top: -80px;
+  margin-left: 585px;
+  width: 180px;
+}
+.dialog h3 {
+  margin-bottom: 10px;
+}
+.dialog p {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.dialog p.smaller {
+  font-size: 14px;
+  line-height: 1.25em;
+}
+
+.dialog {
+  visibility: hidden;
+}
+
+.sub {
+  font-size: 60%;
+  vertical-align: sub;
+}
+
+.button, .button:visited, .button:active {
+  z-index: 2000;
+  position: absolute;
+  background: #23262C;
+  color: #00b0ff;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  padding: 5px 16px 5px;
+  letter-spacing: 0.03em;
+  border-radius: 5px;
+  min-height: 26px;
+  margin-right: 10px;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+  outline: 0;
+  cursor: pointer;
+  -webkit-transition: none;
+  transition: all 0.5s ease;
+}
+.button:hover, .button:visited:hover, .button:active:hover {
+  background: #2e323a;
+}
+
+#slider {
+  opacity: 0.6;
+  position: absolute;
+  margin: 540px auto 50px;
+  display: table;
+  z-index: 510;
+  width: 510px;
+  height: 8px;
+  background: rgba(80, 80, 80, 0.3);
+  border: 1px solid rgba(102, 102, 102, 0.5);
+}
+
+.ui-slider-handle {
+  border-radius: 2px;
+  background: #00b0ff;
+  position: absolute;
+  display: block;
+  margin-top: -3px;
+  width: 14px;
+  height: 14px;
+  outline: none;
+}
+
+.money-sm {
+  width: 90px;
+  position: absolute;
+  left: 8%;
+  margin-top: 215px;
+}
+
+@media (max-width: 475px) {
+  #svg, .fallback {
+    top: 320px;
+  }
+}
+@media (max-width: 825px) {
+  .dialog {
+    left: 5%;
+    text-align: center;
+    width: 90%;
+    display: table;
+    margin: 0 !important;
+  }
+
+  .button, .button:visited, .button:active {
+    margin-top: 230px;
+    left: 9%;
+  }
+
+  #svg, .fallback {
+    top: 270px !important;
+    width: 100%;
+    left: 6%;
+  }
+
+  container {
+    width: 100%;
+  }
+
+  #slider {
+    margin: 120px auto 20px;
+    width: 90%;
+    left: 6%;
+  }
+
+  h2 {
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+  }
+
+  #box, .money-lg, .million {
+    display: none;
+  }
+}
+@media (min-width: 826px) {
+  .money-sm {
+    display: none;
+  }
+
+  .button, .button:visited, .button:active {
+    margin-top: 400px;
+    left: 64.95%;
+  }
+
+  #slider {
+    margin: 540px auto 50px;
+    width: 510px;
+  }
+
+  .container {
+    width: 825px;
+  }
+
+  h2 {
+    width: 120px;
+    padding-top: 25px;
+  }
+}
