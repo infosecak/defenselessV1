@@ -5,3 +5,6 @@ Defenseless is a vulnerable web application written in PHP/MySQL. It is my first
 
 # Disclaimer
 Do not host this application on live or production environment.
+
+# Setup
+Setting up this app is easy. Download it and then create a new database in phpmyadmin. Name the database *testapp*. Import the file *testapp* in that database. The application would work ust fine. !!!USE THE APPLICATION ON FIREFOX!!!
