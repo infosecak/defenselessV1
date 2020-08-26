@@ -42,7 +42,7 @@ if (isset($_SESSION['auth']) && $_SESSION['auth']) {
                         if ($user) {
                             $_SESSION['auth'] = true;
                             $_SESSION['authData'] = $user;
-                            header("Location: index.php");
+                            redirect('index.php');
                         } else {
                             ?>
                             <div class="alert alert-danger" role="alert">
