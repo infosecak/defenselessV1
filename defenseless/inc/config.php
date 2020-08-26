@@ -1,6 +1,8 @@
 <?php
 session_start();
 
+require_once 'functions.php';
+
 $servername = "localhost";
 $username = "root";
 $password = "";
