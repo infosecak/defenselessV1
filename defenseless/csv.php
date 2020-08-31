@@ -7,7 +7,7 @@ if (isset($_POST['submit']) ) {
 	$c = 0;
 
 	try{
-		while (($csvdata = fgetcsv($handle,1000,",")) !== false) {
+		while (($csvdata = fgetcsv($handle,1000,","))) {
 
 			$name = $csvdata[0];
 			$person = $csvdata[1];
@@ -22,10 +22,10 @@ if (isset($_POST['submit']) ) {
 
 		
 			
-			header('Location: csv.php?response=true');
-			exit;
 
 		}
+			header('Location: csv.php?response=true');
+			exit;
 
 	} catch(Exception $e) {
 			echo "fail";
@@ -86,8 +86,9 @@ if (isset($_POST['submit']) ) {
         if (isset($_GET['response'])) {
 
         	if ($_GET['response'] == true) {
-        		
+
         	} else if ($_GET['response'] == false) {
+			echo 'not done';
       
         	}
         	
