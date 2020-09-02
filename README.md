@@ -1,5 +1,5 @@
 # defenselessV1
-Defenseless is a vulnerable web application written in PHP/MySQL. It is my first attempt at creating a vulnerable web application. This is the first version of this application. The purpose of this application is to create security awareness among developers and new guys in application security. I would soon be updating the application with more bugs and a new vulnerable application is also being developed. Please let me know how this can be improved. 
+Defenseless is a vulnerable web application written in PHP/MySQL. This is the first version of this application. The purpose of this application is to create security awareness among developers and new guys in application security. It would soon be updated with with more bugs and a new vulnerable application is also being developed. Please let me know how this can be improved. 
 
 ![image](https://user-images.githubusercontent.com/70256749/91271860-727c1080-e798-11ea-8ed1-6e2a7b7516dd.png)
 
