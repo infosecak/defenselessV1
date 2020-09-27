@@ -9,7 +9,7 @@ Do not host this application on live or production environment.
 # Setup
 Setting up this app is easy. 
 1. Download and then create a new database in phpmyadmin.
-2. Name the database as *testapp*. Import the file *testapp* in that database. Then, import the file testapp(2).sql in the testapp database.
+2. Name the database as *testapp*. Then, import the file testapp(2).sql in the testapp database.
 3. Refresh it and you are good to go. 
 
 !!!USE XAMPP FOR BEST RESULTS!!!
