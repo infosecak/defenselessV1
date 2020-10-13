@@ -27,7 +27,7 @@ if (!(isset($_SESSION['auth']) && $_SESSION['auth'])) {
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Settings <span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="profile-edit.php">Edit Profile</a></li>
-          <li><a href="#">Change Password</a></li>
+          <li><a href="passwd-chnge.php">Change Password</a></li>
           <li><a href="out.php">Logout</a></li>
         </ul>
       </li>
